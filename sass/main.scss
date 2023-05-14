@@ -24,12 +24,52 @@ html {
     //kontener
     display: flex;
     flex-wrap: wrap;
-
+    flex-direction: row;
+    // align-content: flex-start;
     //pozycja
     max-width: 1000px;
+    min-height: 100vh;
     margin: 0 auto;
     //wygląd
     font-size: 2rem;
     background-color: #fff;
     box-shadow: 0 0 4px 0 #000;
+}
+
+.logo {
+    flex-basis: 200px;
+    // height: 80px;
+    background-color: blue;
+
+}
+
+.search {
+    background-color: greenyellow;
+    flex-grow: 1;
+}
+
+.settings {
+    background-color: red;
+    padding: 0 50px;
+}
+
+.menu {
+    flex-basis: 100%;
+    background-color: darkcyan;
+}
+
+.main-articles {
+    flex-basis: 100%;
+    // min-heighst: 50vh;
+    background-color: darkseagreen;
+}
+
+.artilce-list {
+    flex-basis: 100%;
+    background-color: darkturquoise;
+}
+
+.footer {
+    flex-basis: 100%;
+    background-color: darkgrey
 }
